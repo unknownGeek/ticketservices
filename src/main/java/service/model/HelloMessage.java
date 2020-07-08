@@ -19,4 +19,10 @@ public class HelloMessage {
     public HelloMessage(String message) {
         this.message = MessageFormat.format("Hi, {0}!", message);
     }
+    public HelloMessage(String message,boolean ok) {
+        this.message = message;
+        }
+    
+    
+    
 }
